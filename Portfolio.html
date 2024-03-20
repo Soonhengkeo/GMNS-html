@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            background-color: rgb(45, 107, 145);
+            height: 70px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            padding: 20px 30px;
+            float: left;
+            color: rgb(255, 255, 255);
+        }
+
+        .nav a:hover {
+            text-decoration: none;
+            background-color: rgb(255, 145, 0);
+            color: white;
+        }
+
+        .F-blog {
+            background-image: url(beach.jpg);
+            text-align: center;
+
+        }
+
+        .T-blog li {
+            border-right: 1px solid #a6aca8;
+            padding: 0px 40px;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        ul {}
+
+        ul li {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        ul li:hover {
+            background-color: #666;
+        }
+
+        ul li:hover ul {
+            display: block;
+        }
+
+        ul li ul {
+            position: absolute;
+            width: 200px;
+            display: none;
+            text-decoration: none;
+        }
+
+        ul li ul li {
+            background: #0475ff;
+            display: block;
+            text-decoration: none;
+        }
+
+        ul li ul li a {
+            display: block !important;
+            color: white;
+        }
+
+        ul li ul li:hover {
+            background: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <img src="1600w-l402wqNTAek.webp" style="height: 70px; border-radius: 50%;overflow: hidden;">
+        <a href="home.html">Home</a>
+        <a href="Portfolio.html">Portfolio</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <button
+            style="height: 30px; width: 60px; margin-top: 18px; background-color: orange; border: none; border-radius: 5px;">Blog</button>
+    </div>
+    <div class="F-blog" style="height: 300px;width: 100%;">
+        <h1
+            style="display: flex;justify-content:center;padding-top: 150px;color: rgb(223, 207, 104);font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+            PORTFOLIO</h1>
+    </div>
+    <div class="S-blog">
+        <h1 style="text-align: center;font-weight: bold;font-size:40px;margin-top: 20px;color: rgb(0, 136, 255);">TAESTE
+            IT THE GOOD PROJECTS</h1>
+    </div>
+    <hr style=" color: rgb(0, 136, 255);">
+    <div class="T-blog">
+        <ul style="text-decoration: none;overflow: hidden;display: flex;justify-content: center;list-style:none;">
+            <li style="border-left: 1px solid #a6aca8"> ALL</li>
+            <li> WEB DESIGN</li>
+            <li> ADVERTISING</li>
+            <li> IDENTITY</li>
+            <li>ILLUSTRATION</li>
+            <ul>
+                <li>
+                    <a href="#">CATAGORY&darr;</a>
+                    <ul>
+                        <li><a href="#">Lorem</a></li>
+                        <li><a href="#">Ipsum</a></li>
+                        <li><a href="#">Dolar</a></li>
+                        <li><a href="#">Sit Amet</a></li>
+                        <li><a href="#">Kullar<a></li>
+                    </ul>
+                </li>
+            </ul>
+            <li style="border-right: 1px solid #a6aca8">
+                <i class="fa fa-bars" style="margin-right:5px;color:gray;"></i>
+                <i class="fa fa-th" style="color: rgb(68, 177, 255);"></i>
+
+            </li>
+        </ul>
+        <hr style=" color: rgb(0, 136, 255);">
+    </div>
+
+    <div class="d-flex justify-content-centerv"
+        style="display: flex;align-items: center;margin-left: 350px;margin-top: 50px;">
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+    </div>
+    <div class="d-flex justify-content-centerv"
+        style="display: flex;align-items: center;margin-left: 350px;margin-top: 30px;">
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+    </div>
+    <div class="d-flex justify-content-centerv"
+        style="display: flex;align-items: center;margin-left: 350px;margin-top: 30px;">
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+        <div class="col-3">
+            <i class="fa fa-camera"
+                style="font-size:30px;background-color:rgb(136, 136, 136); height: 140px;width: 200px;align-items: center;display: flex;padding-left: 80px;border: 5px solid black;color: white;"></i>
+        </div>
+    </div>
+    <div class="button" style="  display: flex;justify-content: center;align-items: center;margin-top: 20px;">
+        <button
+            style="color:white;background-color: rgb(10, 130, 205);border: none;height: 35px;border-radius: 5px;width: 150px;">
+            &larr; Prev Next &rarr;</button>
+    </div>
+    <div class="Fi-blog">
+        <div>
+            <hr style="color: rgb(10, 130, 205);">
+            <h4 style="text-align: center;font-family:Roboto Condensed;color:rgb(10, 130, 205) ;">CLIENTS</h4>
+        </div>
+        <div class="flex-container" style="text-align: center;padding: 10px;">
+            <i style="padding: 20px;">BLUEWAY</i>
+            <i class="fa fa-circle" style="padding: 20px;">THEME</i>
+            <i class="fa fa-star" style="padding: 20px;">Template</i>
+            <i style="padding: 20px;">StockMarket</i>
+            <i class="fa fa-camera" style="padding: 20px;">loremLosum</i>
+            <i class="fa fa-home" style="padding: 20px;">seyyahil</i>
+        </div>
+        <hr style="color: rgb(10, 130, 205);">
+    </div>
+    <div class="Si-blog">
+        <h2 style="text-align: center;">Testimonials</h2>
+        <p style="text-align: center;font-weight: bold;">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit
+            cumque dolor nostrum nam deserunt iste harum aliquam,<br> soluta nisi quam reprehenderit doloremque autem
+            tempore enim minima a, vel dolores ab?"</p>
+    </div>
+    <div class="four-blog" style="height: 370px; background-color: rgb(45, 107, 145); ">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h4 style="text-align: start; color: orange;">BIRD FEEDS</h4>
+                    <p style="font-size: 14px; text-align: justify; color: white;">Check out this great theme item
+                        <br><b style="color:rgb(53, 140, 227); ;">http://hotel.com</b><br>2 weeks ago
+                    </p>
+                    <hr style="width: 250px; color: white;">
+                    <p style="font-size: 14px; text-align: justify; color: white;">Check out this great theme item
+                        <br><b style="color: rgb(53, 140, 227);;">http://hotel.com </b><br>2 weeks ago
+                    </p>
+                    <hr style="width: 250px; color: white;">
+                    <p style="font-size: 14px; text-align: justify; color: white;">Check out this great theme item
+                        <br><b style="color: rgb(53, 140, 227);;">http://hotel.com </b><br>2 weeks ago
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 style="color: orange; text-align: start;">NEWSLETTER</h4>
+                    <p style="text-align: justify; color: white; font-size:14px ;">Lorem, ipsum dolor sit amet
+                        consectetur adipisicing elit. Assumenda obcaecati voluptates
+                        asperiores.</p>
+                    <hr style="color: white;">
+                    <label style="color:rgb(53, 140, 227) ; margin-right: 170px;"><b>Your Emaili Address</b></label>
+                    <input type="text" style="width: 100%;">
+                    <button
+                        style="background-color: orange; border-radius: 5px; border: none; margin-top: 20px; margin-left: 230px; height: 30px; width: 90px; color: white;">Sign
+                        Up</button>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <h4 style="color: orange; text-align: start; margin-left: 30px;">RECENT PROJECTS</h4>
+                        <div class="col">
+                            <p
+                                style="background-color: rgb(255, 255, 255); height: 40px; width: 40px; margin-top: 10px; margin-left: 30px; color:rgb(255, 255, 255) ;">
+                                .</p>
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white; margin-right: 60px;">Sketchy
+                                Business Card <br><b style="color: rgb(53, 140, 227);">http//hotel.com</b><br>2
+                                weeks ago</p>
+                        </div>
+                        <hr style="color: white; width: 80%; margin-left: 40px;">
+                        <div class="col">
+                            <p
+                                style="background-color: rgb(255, 255, 255); height: 40px; width: 40px; margin-top: 10px; margin-left: 30px; color:rgb(255, 255, 255) ;">
+                                .</p>
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white; margin-right: 60px;">Sketchy
+                                Business Card <br><b style="color: rgb(53, 140, 227);">http//hotel.com</b><br>2
+                                weeks ago</p>
+                        </div>
+                        <hr style="color: white; width: 80%; margin-left: 40px;">
+                        <div class="col">
+                            <p
+                                style="background-color: rgb(255, 255, 255); height: 40px; width: 40px; margin-top: 10px; margin-left: 30px; color:rgb(255, 255, 255) ;">
+                                .</p>
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white; margin-right: 60px;">Sketchy
+                                Business Card <br><b style="color: rgb(53, 140, 227);">http//hotel.com</b><br>2
+                                weeks ago</p>
+                        </div>
+    
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <h4 style="color: orange; text-align: start; margin-left: 30px;">RECENT PROJECTS</h4>
+                        <div class="col">
+                            <img src="m2i8G6i8G6m2H7b1.jpg" style="width: 50px;">
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white;">1-123321-123 <br>1-123321-123</p>
+                        </div>
+                        <hr style="color: white; width: 80%; margin-left: 40px;">
+                        <div class="col">
+                            <img src="m2i8G6i8G6m2H7b1.jpg" style="width: 50px;">
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white;">1-123321-123 <br>1-123321-123</p>
+                        </div>
+                        <hr style="color: white; width: 80%; margin-left: 40px;">
+                        <div class="col">
+                            <img src="m2i8G6i8G6m2H7b1.jpg" style="width: 50px;">
+                        </div>
+                        <div class="col">
+                            <p style="font-size: 14px; text-align: justify; color: white;">1-123321-123 <br>1-123321-123</p>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
